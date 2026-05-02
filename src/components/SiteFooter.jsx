@@ -22,7 +22,13 @@ export function SiteFooter() {
               LinkedIn
             </a>
 
-            <a href="/">GitHub</a>
+            <a 
+              href="https://github.com/binna4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
           </div>
         </div>
 
