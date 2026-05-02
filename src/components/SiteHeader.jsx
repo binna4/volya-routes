@@ -1,4 +1,5 @@
-import { Text } from '@mantine/core'
+import { Text, Button } from '@mantine/core'
+
 export function SiteHeader() {
   return (
     <header className="site-header">
@@ -7,7 +8,8 @@ export function SiteHeader() {
           <img
             src="/blue-logo.svg"
             alt="Volya Routes Logo"
-            className="site-logo-icon"/>
+            className="site-logo-icon"
+          />
           <Text className="site-logo">Volya Routes</Text>
         </div>
 
@@ -21,9 +23,12 @@ export function SiteHeader() {
 
         <div className="site-header__right">
           <Text className="weather-text">45 F°</Text>
-          <button>Log in</button>
-          <a href="#cities" className="nav-cta">Book Now</a>
+
+          <Button variant="filled" className="signin-button">
+            Sign in
+          </Button>
         </div>
       </div>
     </header>
-)}
+  )
+}
