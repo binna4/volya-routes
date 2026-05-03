@@ -20,7 +20,7 @@ export function CitiesSection({ selectedCity, onSelectCity }) {
         <div className="map-card">
           <div className="map-wrapper">
             <img
-              src="/map-of-ukraine-gradient.svg"
+              src={`${window.location.hostname === 'localhost' ? '/map-of-ukraine-gradient.svg' : `${import.meta.env.BASE_URL}/map-of-ukraine-gradient.svg`}`}
               alt="Map of Ukraine"
               className="ukraine-map"
             />
