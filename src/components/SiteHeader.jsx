@@ -6,7 +6,7 @@ export function SiteHeader() {
       <div className="site-header__inner">
         <div className="site-logo-group">
           <img
-            src="/blue-logo.svg"
+            src={`${window.location.hostname === 'localhost' ? '/blue-logo.svg' : `${import.meta.env.BASE_URL}/blue-logo.svg`}`}
             alt="Volya Routes Logo"
             className="site-logo-icon"
           />
