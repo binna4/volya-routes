@@ -1,6 +1,6 @@
 import { Card, Rating, Text } from '@mantine/core'
 import { Carousel } from '@mantine/carousel'
-
+//test
 export function CardRowSection({ title, items }) {
   const sectionId = title.toLowerCase().replaceAll(' ', '-')
 
