@@ -10,7 +10,7 @@ export const cities = {
     activities: [
       {
         title: 'Maidan Nezalezhnosti',
-        image: `${import.meta.env.BASE_URL}/images/kyiv/ka-maidan-nezalezhnosti.jpg`,
+        image: '/images/kyiv/ka-maidan-nezalezhnosti.jpg',
         rating: '5',
         type: 'Outdoors',
       },
