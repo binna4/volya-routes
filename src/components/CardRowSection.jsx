@@ -32,7 +32,7 @@ export function CardRowSection({ title, items }) {
             >
               <div className="place-card__media">
                 <img
-                  src={`${import.meta.env.BASE_URL}${item.image}`}
+                  src={`${window.location.hostname === 'localhost' ? item.image : `${import.meta.env.BASE_URL}${item.image}`}`}
                   alt={item.title}
                   className="place-card__image"
                 />
