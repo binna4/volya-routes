@@ -2,7 +2,7 @@ name: Deploy Site
 on:
   push:
     branches:
-      - publish-site
+      - main
 
 permissions:
   contents: read
